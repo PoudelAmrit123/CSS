@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+header {
+ background-color: whitesmoke;
+ /* background-image: url(https://preview.colorlib.com/theme/direngine/images/bg_1.jpg.webp );
+  overflow: hidden; */
+   clip-path: polygon(0 0, 56% 0, 100% 0, 100% 60%, 70% 81%, 32% 81%, 0 60%);
+  
+    /* height: 100%; */
+    border: 2px solid black;
+    min-height: 40rem;
+     
+}
+ .beach {
+     max-height: 100px;
+ }
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    list-style: none;
+    text-decoration: none;
+      right: 0;
+      margin-left: 25rem;
+      padding-left: 1rem;
+      
+   }
+    
