@@ -14,34 +14,21 @@ header {
     width: 100%;
     height: 90vh;
     background-image: url('../img/mainheader.webp');
-/*     
-clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 72%, 95% 86%, 82% 100%, 19% 100%, 7% 91%, 0 76%); */
+
 background-position-y: center;
 background-position-x: bottom;
-
-
-    background-size: cover;
-
- 
- 
- /* background-color: rgb(10, 2, 2); */
-   /* clip-path: polygon(0 0, 56% 0, 100% 0, 100% 60%, 70% 81%, 32% 81%, 0 60%);  */
-    /* min-height: 40rem; */
-    /* clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 72%, 95% 86%, 82% 100%, 19% 100%, 7% 91%, 0 76%); */
-  
-     
+  background-size: cover;
+    
 }
 
 .header-content h2{
-
    position: absolute;
    top: 0;
    bottom: 0;
    display: flex;
-
+ color:  whitesmoke;
 align-items: flex-end;
 justify-content: center;
-
 left: 41%;
 bottom: -15rem;
 flex-direction: column;
@@ -105,25 +92,34 @@ color: #fc036b;
     
    }  
    .navicon {
-       
+    margin-top: 2em;
+    margin-left: 7em;
+
    }
 
     .navicon1 {
 color: white;
 text-decoration: none;
-
+margin-right: -3em;
     }
+
+       
+   
+
+
 
     
     .navicon2 {
         color: white;
         text-decoration: none;
+        margin-right: -3em;
             }
     
        
     .navicon3 {
         color: white;
         text-decoration: none;
+        margin-right: -4em;
             }
                  
 
@@ -131,5 +127,15 @@ text-decoration: none;
             .navicon4 {
                 color: white;
                 text-decoration: none;
-                    }
+                border-radius: 500px;
+                text-decoration: none;
+                background-color: #fc036b ;
+                height: 1.8em;
+                padding-top: 4px;
+                padding-left: 22px;
+                width: 6em;
+                display: flex;
+            }
+            
+                    
                     
