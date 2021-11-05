@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Noto+Serif+Display:ital,wght@1,200&family=Qahiri&family=Roboto:ital,wght@1,100&family=Zen+Antique&family=Zen+Old+Mincho&display=swap');
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +11,7 @@
   
 header {
 
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     background-image: url('../img/mainheader.webp');
 /*     
@@ -27,21 +32,55 @@ background-position-x: bottom;
      
 }
 
-.header-content{
+.header-content h2{
 
    position: absolute;
    top: 0;
    bottom: 0;
+   display: flex;
 
-}
- .heading{
+align-items: flex-end;
+justify-content: center;
+
+left: 41%;
+bottom: -15rem;
+flex-direction: column;
+font-size:6vmin ;
+font-family: 'Zen Antique', serif;
+} 
+ 
+
+  .btn {
+
+    border-radius: 500px;
+    text-decoration: none;
+    background-color: #fc036b ;
+    position: absolute;
+    bottom: 7rem;
+    left: 46.5%;
+    height: 1.8em;
+    color: whitesmoke;
+    
+    padding-top: 4px;
+padding-left: 9px;
+    width: 6em;
+
+
+  }
+
+.heading{
     position: absolute;
     top: 0;
     bottom: 0;
+    left: 2rem;
+top: 1rem;
 
+font-family: 'Dancing Script', cursive;
+font-size:6vmin ;
+color: #fc036b;
  }
-/* 
-  .beach {
+
+  /* .beach {
      
      margin-left: -26rem;
      overflow-x: auto;
@@ -49,25 +88,48 @@ background-position-x: bottom;
      margin-top: -12rem;
      margin-right: -11rem;
      overflow: hidden;
- }
+ } */
 
-
-nav ul {
+ 
+ nav ul {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    
    
     list-style: none;
     text-decoration: none;
-      right: 0;
+  
       margin-left: 25rem;
       padding-left: 1rem;
-      
-   }  */ */
+      justify-content: space-evenly ;
+     
+    
+   }  
+   .navicon {
+       
+   }
 
-    .navicon {
-
-
+    .navicon1 {
+color: white;
+text-decoration: none;
 
     }
+
     
+    .navicon2 {
+        color: white;
+        text-decoration: none;
+            }
+    
+       
+    .navicon3 {
+        color: white;
+        text-decoration: none;
+            }
+                 
+
+    
+            .navicon4 {
+                color: white;
+                text-decoration: none;
+                    }
+                    
